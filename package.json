@@ -1,0 +1,21 @@
+{
+  "name": "register_app",
+  "version": "1.0.0",
+  "description": "express and sequelize register app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "keywords": ["node.js", "express.js", "register", "sequelize", "sqlite"],
+  "author": "Talha AYDIN",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.4",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "pug": "^2.0.3",
+    "sequelize": "^4.43.0",
+    "sqlite3": "^4.0.6"
+  }
+}

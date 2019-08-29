@@ -1,0 +1,14 @@
+html
+   head
+      title Express Application
+   body
+      form(action = "/form", method = "POST")
+         div
+            label(for = "email") E-Mail:
+            input(type = "text" name = "email" placeholder = "example@gmail.com")
+         br
+         div
+            label(for = "password") Password:
+            input(type = "text" name="password" placeholder = "password")
+         br
+         button(type = "submit") Send
